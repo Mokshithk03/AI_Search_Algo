@@ -115,7 +115,7 @@ class Maze:
     def solve(self):
         self.num_explored = 0
         start = Node(state=self.start, parent=None, action=None)
-        frontier = StackFrontier()
+        frontier = QueueFrontier()
         frontier.add(start)
         self.explored = set()
 
