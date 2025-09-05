@@ -205,6 +205,6 @@ if __name__ == "__main__":
     maze.print()
     maze.solve()
     print("Maze after solving:")
-    print(f"Number of steps : {maze.num_explored}")
+    print(f"Number of state explored : {maze.num_explored}")
     maze.print()
     maze.draw()
